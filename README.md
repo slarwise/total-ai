@@ -14,6 +14,12 @@ python3 totalai.py filename
 
 Both relative and absolute paths can be used. Any image file format can be used.
 
+For example, to classify `1.png` in `examples/`, do
+
+```sh
+python3 totalai.py examples/1.png
+```
+
 ## Contribute
 
 Contributions are very welcome! Open an issue if you have any questions 🙃 The main work
