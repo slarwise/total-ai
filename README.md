@@ -12,7 +12,7 @@ To classify the image `filename`, do
 python3 totalai.py filename
 ```
 
-Both relative and absolute paths can be used.
+Both relative and absolute paths can be used. Any image file format can be used.
 
 ## Contribute
 
