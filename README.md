@@ -16,7 +16,7 @@ Both relative and absolute paths can be used. Any image file format can be used.
 
 ## Contribute
 
-Contributions are very welcome! Open an issue if you have any questions (: The main work
+Contributions are very welcome! Open an issue if you have any questions 🙃 The main work
 is extending the `classifier.csv` file with examples for the different image classes.
 Currently the classifier is extremely biased, it only works with english images. Any
 contributions for other languages are very welcome!
