@@ -8,8 +8,11 @@ def main():
     classifier = get_classifier()
     predictions = predict(args.filename, classifier)
 
-    print(f"{len(predictions)} predictions found:")
-    print(*predictions)
+    if predictions:
+        print(f"{len(predictions)} predictions found:")
+        print(*predictions)
+    else:
+        print("No predictions found")
 
 def get_classifier():
     classifier = {}
