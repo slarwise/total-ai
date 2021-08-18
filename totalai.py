@@ -20,8 +20,8 @@ def get_classifier():
     with open("classifier.csv") as f:
         for line in f:
             items = line.strip().split(",")
-            image_class, *examples = items
-            classifier[image_class] = examples
+            image_class = items[0]
+            classifier[image_class] = items
     return classifier
 
 def predict(image_name, classifier):
