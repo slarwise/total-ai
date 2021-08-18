@@ -9,7 +9,8 @@ def main():
     predictions = predict(args.filename, classifier)
 
     if predictions:
-        print(f"{len(predictions)} predictions found:")
+        prediction_str = "prediction" if len(predictions) == 1 else "predictions"
+        print(f"{len(predictions)} {prediction_str} found:")
         print(*predictions)
     else:
         print("No predictions found")
